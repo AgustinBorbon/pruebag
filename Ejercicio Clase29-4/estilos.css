@@ -1,0 +1,41 @@
+.texto_rojo {
+    color: red;
+}
+
+.texto_tachado {
+    text-decoration: line-through;
+}
+
+h1 {
+    background-color: lightgrey;
+    width: 600px;
+}
+
+#highlightverde {
+    background-color: lightgreen;
+}
+
+#highlightamarillo {
+    background-color: yellow;
+}
+
+#highlightceleste {
+    background-color: lightskyblue;
+}
+
+#textoazul {
+    color: lightskyblue;
+}
+
+#textonaranja {
+    color: darkorange
+}
+
+.texto_negritasubrayado {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+body {
+    max-width: 600px;
+}
