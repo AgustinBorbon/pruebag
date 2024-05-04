@@ -1,0 +1,123 @@
+/* Estilos generales */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+    width: 100%;
+}
+
+.content {
+    margin-top: 5%;
+    margin-left: 8%;
+    float: left;
+    width: 50%;
+}
+
+.texto-derecha {
+    margin-top: 5%;
+    float: left;
+    width: 20%;
+    margin-top: 700px;
+}
+
+.texto-derecha p {
+    border-bottom: 1px solid#ccc;
+    font-size: 100%;
+}
+
+.content #seccion-titulo {
+    width: 100%;
+    margin-top: 150px;
+}
+
+header {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    text-decoration: overline underline;
+    word-spacing: 0.5em;
+    width: 100%;
+    /* Establecer el ancho al 100% */
+    /* Fijar la posición */
+    top: 0;
+    /* Posicionar en la parte superior */
+    left: 0;
+    /* Posicionar en el borde izquierdo */
+}
+
+header img {
+    display: inline-block;
+    height: 100px;
+    width: 330px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 45px;
+}
+
+section {
+    padding: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+figcaption {
+    font-style: italic;
+    text-align: center;
+}
+
+p {
+    line-height: 1.6;
+    font-size: 120%;
+}
+
+h2 {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.barranavegacion {
+    position: fixed;
+    top: 0;
+    background-color: white;
+    border-bottom: 2px solid#ccc;
+    width: 100%;
+    word-spacing: 1em;
+    font-weight: bold;
+}
+
+.barranavegacion p {
+    font-size: 100%;
+}
+
+#botonesbarra {
+    float: right;
+    margin-right: 5%;
+    border: 2px solid #333;
+    border-radius: 50px;
+}
+
+.negrita {
+    font-weight: bold;
+}
+
+
+/* Estilos para la sección de pie de página */
+
+footer {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
