@@ -1,0 +1,21 @@
+@import url('body.css');
+@import url('header.css');
+@import url('menu.css');
+@import url('nav.css');
+@import url('media.css');
+@import url('class.css');
+@media (max-width: 768px) {
+    .menu {
+        display: none;
+        flex-direction: column;
+    }
+    .menu.show {
+        display: flex;
+    }
+    .menu-icon {
+        display: block;
+    }
+    .content {
+        flex-direction: column;
+    }
+}

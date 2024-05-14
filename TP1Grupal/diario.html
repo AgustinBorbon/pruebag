@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portada del Diario</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+    <!-- <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            position: relative;
+        }
+        
+        .menu-icon {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            cursor: pointer;
+            display: none;
+        }
+        
+        nav {
+            background-color: #444;
+            color: #fff;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        @media (max-width: 768px) {
+            .menu {
+                display: none;
+                flex-direction: column;
+            }
+            .menu.show {
+                display: flex;
+            }
+            .menu-icon {
+                display: block;
+            }
+        }
+        
+        .menu-item {
+            padding: 0 10px;
+        }
+        
+        .content {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        
+        .main-content {
+            flex-grow: 1;
+            margin: 0 10px;
+        }
+        
+        @media (max-width: 768px) {
+            .content {
+                flex-direction: column;
+            }
+        }
+    </style> -->
+
+</head>
+
+<body>
+    <header>
+        <h1>Diario El Noticiero</h1>
+        <div class="menu-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                <rect width="16" height="1" rx="0.5" />
+                <rect y="6" width="16" height="1" rx="0.5" />
+                <rect y="12" width="16" height="1" rx="0.5" />
+            </svg>
+
+        </div>
+    </header>
+    <nav>
+        <div class="menu">
+            <a href="#" class="menu-item">Inicio</a>
+            <a href="#" class="menu-item">Internacional</a>
+            <a href="#" class="menu-item">Política</a>
+            <a href="#" class="menu-item">Economía</a>
+            <a href="#" class="menu-item">Deportes</a>
+        </div>
+    </nav>
+    <div class="container content">
+        <div class="left-content">
+            <h2>Contenido Izquierdo</h2>
+            <p>Este es el contenido que aparece a la izquierda del contenido principal.</p>
+        </div>
+        <div class="main-content">
+            <h2>Contenido Principal</h2>
+            <p>Este es el contenido principal de la portada del diario. Aquí aparecerían las noticias más importantes y destacadas del día.</p>
+        </div>
+        <div class="right-content">
+            <h2>Contenido Derecho</h2>
+            <p>Este es el contenido que aparece a la derecha del contenido principal.</p>
+        </div>
+    </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Diario El Noticiero. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $(".menu-icon").click(function() {
+                $(".menu").toggleClass("show");
+            });
+        });
+    </script>
+</body>
+
+</html>

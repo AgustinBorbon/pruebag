@@ -1,0 +1,15 @@
+@media (max-width: 768px) {
+    .menu {
+        display: none;
+        flex-direction: column;
+    }
+    .menu.show {
+        display: flex;
+    }
+    .menu-icon {
+        display: block;
+    }
+    .content {
+        flex-direction: column;
+    }
+}
